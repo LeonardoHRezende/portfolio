@@ -2,8 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bs-background);
 }
 
 a {
@@ -14,3 +14,38 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/*cores padrões*/
+:root {
+  --bs-blue: #0296FC;
+  --bs-background: #212529;
+}
+
+
+
+/*Paddings Padrões*/
+.padding-top-8{
+  padding-top: 8rem;
+}
+
+
+/*Header*/
+.nav-link {
+  font-size: 1.125rem !important;
+  font-weight: 600 !important;
+}
+
+.nav-link:hover {
+  color: var(--bs-blue) !important;
+}
+
+/*CAPA*/
+.text-destaque {
+  color: var(--bs-blue) !important;
+}
+
+.fs-0{
+  font-size: 3rem;
+}
+
+
